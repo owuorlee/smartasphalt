@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Evidence | Smart Asphalt</title>
+<meta name="description" content="The source ledger: every important claim in the Smart Asphalt research, checked against public sources, with its status and confidence.">
+<link rel="stylesheet" href="assets/site.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="bar"><a class="brand" href="index.html">SMART ASPHALT</a>
+<button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav class="main" id="nav" aria-label="Main"><a href="index.html">The idea</a><a href="problem.html">The problem</a><a href="how-it-works.html">How it works</a><a href="simulator.html">Try it</a><a href="research.html">Research</a><a href="evidence.html" aria-current=page>Evidence</a><a href="reports.html">Full reports</a><a href="videos.html">Videos</a><a href="limits.html">Limits</a></nav></div></header>
+<main id="main">
+
+<section class="block"><div class="wrap">
+<div class="eyebrow">The evidence</div>
+<h1 style="font-size:clamp(40px,6vw,76px)">Every claim, its source, and how sure we are.</h1>
+<p class="lead">We checked 33 claims from our research against public sources on 2 and 3 October 2026. Each claim shows what the sources say, our confidence, and a link to the source.</p>
+<div class="pill-row">
+<span class="badge b-verified">20 verified</span>
+<span class="badge b-partly">5 partly verified</span><span class="badge b-model">7 our models</span><span class="badge b-unverified">1 not verified</span></div>
+<details class="tech"><summary>How we checked</summary><div>
+<p>For each headline claim we searched for a primary or reputable source (official statistics, peer-reviewed papers, university repositories, organisations' own pages, reputable news). Import figures were read directly from the UN Comtrade public API. When we could not find a source, we labelled the claim as not verified or as our own model, and did not present it as fact.</p>
+<p><b>Limits of this check.</b> It was done in about a day. Some sources were read in full, others only through search summaries (these are marked medium confidence). Peer-reviewed numbers were not independently reproduced. Detailed engineering figures in the reports (for example specific rheology or mix-design values) were not individually checked: they are background from the technical literature or our own design, and the reports say so.</p></div></details>
+<p><b>Download:</b> <a href="downloads/source_ledger.csv">spreadsheet (CSV)</a> &middot; <a href="downloads/source_ledger.md">readable text (Markdown)</a></p>
+</div></section>
+<section class="block alt" style="padding-top:36px"><div class="wrap">
+<div class="filters" role="group" aria-label="Filter by status">
+<button data-s="all" aria-pressed="true">All</button><button data-s="verified" aria-pressed="false">Verified</button><button data-s="partly" aria-pressed="false">Partly verified</button><button data-s="model" aria-pressed="false">Our models</button><button data-s="unverified" aria-pressed="false">Not verified</button></div>
+<label class="small muted" for="q">Search the claims</label><br><input id="q" type="search" placeholder="for example: plastic, tyres, healing, imports">
+<div class="count" id="count"></div>
+<div id="ledger" aria-live="polite"></div>
+</div></section>
+
+</main>
+<footer class="site"><div class="wide">
+<div><h4>Smart Asphalt</h4><p>A concept for roads built from Kenya's waste that repair themselves using the sun. Entry to the JKUAT Tech Week 6.0 NetZero Challenge.</p>
+<p>Andrew Weloba, Anthony Mugambi, Dennis Katiku, Gregory Miraya, Leslie Owuor, Trevor Mugo<br>BSc Civil Engineering, JKUAT</p></div>
+<div><h4>Explore</h4><ul><li><a href="how-it-works.html">How it works</a></li><li><a href="simulator.html">Try the simulator</a></li><li><a href="evidence.html">Check the evidence</a></li><li><a href="reports.html">Read the full reports</a></li><li><a href="glossary.html">Glossary</a></li></ul></div>
+<div><h4>Honesty note</h4><p>This is a design concept at laboratory stage. Nothing here has been tested on a Kenyan road. Sources were checked on 2-3 October 2026; see the <a href="evidence.html">evidence page</a> for every claim and its status.</p></div>
+</div></footer>
+<script src="assets/site.js"></script><script src="assets/ledger.js"></script><script src="assets/site.js"></script>
+</body></html>
