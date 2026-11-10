@@ -19,6 +19,14 @@ Option C: Cloudflare Pages (free) > Create project > Direct upload > drop the fo
 
 Then make a QR code for the link (any free QR generator) and put it on the poster and the last slide.
 
+PAGES (Dandora edition, Nov 2026)
+-------------------------------
+ index (home + 60-second explainer + 'where to start' tiles), dandora (founder story), problem, how-it-works (plain),
+ simulator, questions (hard questions: environment, micro/nanoplastics, capsule survival...), plan (pilot, business,
+ market, competition, ask), engineers (technical), evidence (source ledger), get-involved (calls to action + contacts),
+ research, reports, videos, limits, glossary.
+ Exact formulations are NOT published: Phase 4 is 'on request' and Phase 1 sections 6 and 9 are withheld.
+
 PRIVACY NOTES
 -------------
  * The site tells search engines not to index it (noindex + robots.txt), so only people with the link will find it.

@@ -1,8 +1,87 @@
 # Smart Asphalt: source ledger
 
-Every important claim in the research, checked against public sources on 2-3 October 2026. Statuses: **Verified** (confirmed against sources), **Partly verified**, **Our model (untested)** and **Not verified**.
+Every important claim in the research, checked against public sources in October and November 2026. Statuses: **Verified** (confirmed against sources), **Partly verified**, **Our model (untested)** and **Not verified**.
 
-Summary: 20 verified, 5 partly verified, 7 our model (untested), 1 not verified (total 33).
+Summary: 27 verified, 9 partly verified, 7 our model (untested), 1 not verified (total 44).
+
+
+## Dandora
+
+### D1. How much waste reaches Dandora  [Verified; confidence: High]
+- **Claim:** Dandora still receives more than 2,000 tonnes of Nairobi's waste every day.
+- **What the sources say:** Confirmed: the landfill, officially declared full in 2001, 'still receives more than 2,000 tonnes of waste every day'. Other outlets give 2,000-3,500 tonnes a day.
+- Source: [African Arguments, 'What Happens After Dandora? Kenya's Green Transition Faces Its Hardest Test' (21 July 2026)](https://africanarguments.org/2026/07/what-happens-after-dandora-kenyas-green-transition-faces-its-hardest-test/)
+- Source: [Capital FM, Dandora clean-up and waste pickers](https://capitalfm.africa/dandora-cleanup-puts-waste-pickers-at-a-crossroads-as-nairobi-overhauls-garbage-system/)
+
+### D2. How many people depend on the dumpsite  [Verified; confidence: Medium]
+- **Claim:** Thousands of waste pickers and their families depend on Dandora.
+- **What the sources say:** Estimates range from about 3,000 families to as many as 8,000 individual waste pickers on a given day. In February 2026 a court found that more than 1,000 waste pickers had been exposed to hazardous working conditions.
+- **Note:** Counts vary between sources because work on the site is informal.
+- Source: [Capital FM, Dandora clean-up and waste pickers](https://capitalfm.africa/dandora-cleanup-puts-waste-pickers-at-a-crossroads-as-nairobi-overhauls-garbage-system/)
+- Source: [African Arguments, 'What Happens After Dandora? Kenya's Green Transition Faces Its Hardest Test' (21 July 2026)](https://africanarguments.org/2026/07/what-happens-after-dandora-kenyas-green-transition-faces-its-hardest-test/)
+
+### D3. What waste pickers earn  [Partly verified; confidence: Medium]
+- **Claim:** Many waste pickers earn as little as KES 200 a day.
+- **What the sources say:** African Arguments (2026) reports that most earn KES 300-500 a day. Earlier reports put earnings at around USD 2-4.60 a day, and plastic film sells for only a few shillings a kilo. Earnings vary by day and by material; KES 200 is at the low end of the reported range.
+- **Note:** Also based on the founder's first-hand knowledge of the community.
+- Source: [African Arguments, 'What Happens After Dandora? Kenya's Green Transition Faces Its Hardest Test' (21 July 2026)](https://africanarguments.org/2026/07/what-happens-after-dandora-kenyas-green-transition-faces-its-hardest-test/)
+- Source: [Nation, Nairobi garbage collectors feel the pinch of the plastic bag ban](https://nation.africa/kenya/news/nairobi-garbage-collectors-feel-the-pinch-of-plastic-bags-ban-451948)
+
+### D4. Health of children near the dumpsite  [Verified; confidence: High (for 2007)]
+- **Claim:** Half of the children tested near the dumpsite had high levels of lead in their blood.
+- **What the sources say:** A UNEP-commissioned study (2007) of 328 children aged 2-18 found that half had blood lead at or above the international action level of 10 micrograms per decilitre, and almost half had respiratory illness.
+- **Note:** This is the most-cited health study of the site. It is dated, and newer large studies are lacking.
+- Source: [Al Jazeera, 'Nairobi dump harming children' (2007)](https://www.aljazeera.com/news/2007/10/7/nairobi-dump-harming-children)
+- Source: [UN News (2007)](https://news.un.org/en/story/2007/10/235002)
+
+### D5. How much of Nairobi's waste is recovered  [Verified; confidence: Medium]
+- **Claim:** Only about 15% of Nairobi's daily waste is recovered.
+- **What the sources say:** UN-Habitat estimates Nairobi generates about 3,085 tonnes of municipal solid waste a day, about 65% is collected and only 15% recovered.
+- Source: [Hydrocarbon Processing, 'Plastic roads in Kenya: turning waste into opportunity' (Oct 2026), citing UN-Habitat](https://hydrocarbonprocessing.com/news/2026/10/plastic-roads-in-kenya-turning-waste-into-opportunity/)
+
+
+## Environment and safety
+
+### E1. Do plastic roads give off harmful fumes during mixing?  [Partly verified; confidence: Medium]
+- **Claim:** Melting plastic into bitumen at normal asphalt temperatures is not expected to add significant extra fumes, if the right plastics are used.
+- **What the sources say:** Evidence is mixed. One peer-reviewed study (Boom et al., 2022) found that adding recycled plastics lowered overall VOC and PAH emissions from bitumen at 160-200 C. Another (Jiang et al.) found that PVC and high doses of HDPE raised hazardous emissions. A 2026 review warns that field and occupational data are lacking.
+- **Note:** Our design excludes PVC and uses LDPE/PP at about 6% of the binder. Fume monitoring is part of the pilot.
+- Source: [Boom et al. (2022), Science of the Total Environment, VOCs and PAHs from recycled-plastic bitumen](https://peeref.com/works/25478936)
+- Source: [Environmental impact of asphalt with recycled plastic: a state-of-the-art review (2026)](https://digitalcommons.mtu.edu/michigantech-p2/2675)
+
+### E2. Do plastic roads release microplastics and nanoplastics?  [Partly verified; confidence: Low-Medium]
+- **Claim:** Plastic melted into the binder is locked inside the road, but release under wear must be measured.
+- **What the sources say:** Not settled. One study estimated microplastic release from plastic-modified pavement at about three orders of magnitude below tyre-wear particles. A 2022 abrasion test found that plastic used as a binder modifier released particles earlier than plastic used as an aggregate. Nanoplastics have barely been measured in roads; reviews call for better test methods.
+- **Note:** We will measure particles in runoff and wear debris at the truck-yard pilot, beside a normal asphalt section.
+- Source: [Penn State: environmental impact of post-consumer plastic in asphalt](https://iee.psu.edu/news/investigating-environmental-impact-post-consumer-plastic-asphalt)
+- Source: [Potential release of microplastics from recycled plastic modified asphalt (TRID)](https://trid.trb.org/View/2682917)
+- Source: [PubMed 35716564: microplastic release from plastic-modified asphalt (2022)](https://www.pubmed.gov/35716564/)
+
+### E3. Do plastic roads leach chemicals into water?  [Partly verified; confidence: Medium]
+- **Claim:** Leaching must be tested for our materials.
+- **What the sources say:** Mixed results. A 2021 leaching tank test on a polymer-modified binder found no heavy-metal contribution to water. A 2025 University of Illinois study found some trace elements above US EPA levels for certain waste-plastic mixes. A US NIST field road in Hawaii is sampling runoff. There is no standard leaching test for asphalt yet.
+- **Note:** Runoff from the pilot will be sampled.
+- Source: [University of Illinois (2025), waste plastic in asphalt concrete](https://www.ideals.illinois.edu/items/139748)
+- Source: [NIST, paving the way for recycled plastics in Hawaii (2023)](https://www.nist.gov/news-events/news/2023/10/spotlight-paving-way-recycled-plastics-state-hawaii)
+
+
+## Market and competition
+
+### K1. East Africa's road bitumen imports  [Verified; confidence: High]
+- **Claim:** East Africa imports about 181,000 tonnes of petroleum bitumen a year (about USD 109 million).
+- **What the sources say:** UN Comtrade (HS 271320), 2024: Kenya 39,850 t, Uganda 16,583 t, Tanzania 57,956 t, Rwanda 31,370 t, DR Congo 32,177 t; Burundi 3,199 t (2023). Total about 181,135 t worth about USD 108.6 million.
+- **Note:** Our market size converts this to tonnes of asphalt (5.5% binder) and multiplies by our additive price of KES 700 per tonne: that step is our model.
+- Source: [UN Comtrade public API, HS 271320 imports by country](https://comtradeapi.un.org/)
+
+### K2. A Japanese plastic-asphalt study is under way in Nairobi  [Verified; confidence: High]
+- **Claim:** Nippon Road, Kao and Shimizu are studying asphalt made with recycled PET in Nairobi.
+- **What the sources say:** Confirmed: JICA SDGs Business Validation Survey, 'Dissemination of Asphalt Concrete Using Recycled PET in Kenya', May 2025 to November 2027, Nairobi and surroundings; Kao's NEWTLAC modifier from waste PET.
+- Source: [JICA project summary (April 2025)](https://www2.jica.go.jp/ja/priv_sme_partner/document/1693/Bz241022_summary.pdf)
+
+### K3. Road maintenance budget  [Verified; confidence: Medium]
+- **Claim:** The Treasury proposed KES 115.6 billion for road maintenance in 2025/26.
+- **What the sources say:** Reported: KES 115.6 billion for road maintenance within a KES 217.3 billion roads budget proposal for 2025/26.
+- Source: [AllAfrica, 'Mbadi proposes Sh217.3bn for roads' (June 2025)](https://allafrica.com/stories/202506130056.html)
 
 
 ## The problem
